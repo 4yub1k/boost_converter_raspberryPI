@@ -16,5 +16,14 @@
 ## Converter Schematic:
 ![Boost converter Main](https://github.com/4yub1k/boost_converter_raspberryPI/blob/main/images/D_50.png)
 
+## Set Voltage:
+Modified circuit for Setting the range of voltage.
+![setVoltage](https://github.com/4yub1k/boost_converter_raspberryPI/blob/main/images/main_voltage_control.png)
+
+## Working:
+The Output Voltage is set on `12V`, where `kp, ki, kd = 0.1, 0.6, 0.01`. Please tune these values to get desired respone.
+
+https://github.com/4yub1k/boost_converter_raspberryPI/assets/45902447/6b698616-459d-4642-b4a9-d7e18d2b1834
+
 ## BOM:
 ![Boost converter Main BOM](https://github.com/4yub1k/boost_converter_raspberryPI/blob/main/images/BOM.png)

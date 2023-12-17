@@ -52,6 +52,7 @@ class BoostConverter:
         """
         Update the duty cycle.
         """
+        duty = abs(duty)
         if duty >= 0 and duty <= 100:
             self.pwm.ChangeDutyCycle(duty)
             self.duty = duty

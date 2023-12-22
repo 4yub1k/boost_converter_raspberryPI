@@ -23,7 +23,8 @@ Modified circuit for Setting the range of voltage.
 ## Working:
 The Output Voltage is set on `12V`, where `kp, ki, kd = 0.1, 0.6, 0.01`. Please tune these values to get desired respone.
 
-https://github.com/4yub1k/boost_converter_raspberryPI/assets/45902447/6b698616-459d-4642-b4a9-d7e18d2b1834
+![12V_output](https://github.com/4yub1k/boost_converter_raspberryPI/assets/45902447/afcabcde-ef0d-418f-b56f-cf20fcf42921)
+
 
 ## BOM:
 ![Boost converter Main BOM](https://github.com/4yub1k/boost_converter_raspberryPI/blob/main/images/BOM.png)
